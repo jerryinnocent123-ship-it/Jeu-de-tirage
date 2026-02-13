@@ -89,7 +89,7 @@ btnlancer.addEventListener("click", function(){
 // verifier les resultats
     if( r1 === r2 && r2 === r3){
        resultat = document.querySelector(".resultat h4").innerText = "Gagné !";
-       fond.style.backgroundColor = "red";
+       // fond.style.backgroundColor = "red";
        
     }
     if ( r1===7 && r2===7 && r3===7){
@@ -99,4 +99,5 @@ btnlancer.addEventListener("click", function(){
        resultat = document.querySelector(".resultat h4").innerText = "Perdu !";
        
     }
+
 });
